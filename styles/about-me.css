@@ -1,0 +1,16 @@
+/* @media (min-width: 1200px) {
+    Your desktop-specific styles here
+} */
+
+/* @media (min-width: 992px) and (max-width: 1199px) {
+    Your laptop-specific styles here
+} */
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+    Your tablet-specific styles here
+} */
+  
+/* @media (max-width: 767px) {
+    Your mobile-specific styles here
+} */
+
