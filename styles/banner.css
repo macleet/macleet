@@ -1,0 +1,111 @@
+html {
+    background-color: #FDF8F0;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+}
+
+html::-webkit-scrollbar {
+    width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #4B4E53;
+}
+
+header {
+    user-select: none;
+    position: fixed;
+
+    color: #4B4E53;
+
+    padding: 15px 50px;
+
+
+    width: 100vw;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+    max-height: 70px;
+
+    z-index: 1000;
+    background-color: #FDF8F0;
+    box-shadow: 0 0 1.5px 5px #FDF8F0;
+}
+
+#logo-container {
+    white-space: nowrap;
+    float: left;
+}
+
+h1 {
+    transition: color 0.3s ease-in-out;
+}
+
+nav {
+    float: right;
+
+    padding-top: 12px;
+    width: 55em;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+    list-style-type: none;
+
+    width: 900px;
+}
+
+header a {
+    text-decoration: none;
+
+    font-weight: bolder;
+    font-size: 1.1em;
+
+    color: #2e2e2e;
+
+    transition-property: color;
+    transition-duration: 0.25s;
+}
+
+header li {
+position: relative;
+}
+
+header li::before {
+    content: '';
+    background-color: #0048bd88;
+    z-index: -1;
+    left: 0;
+    bottom: 0px;
+    height: 5.5px;
+    width: 100%;
+
+    border-radius: 1.5px;
+
+    position: absolute;
+
+    transition: all .25s ease-in-out;
+}
+
+header li:hover::before {
+    bottom: 0;
+    height: 100%;
+    background-color: #0d4196;
+}
+
+header a:hover {
+    color: whitesmoke;
+}
+
+h1 a:hover {
+    color: #0d4196;
+}
