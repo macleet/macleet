@@ -1,0 +1,97 @@
+/* @media (min-width: 1200px) {
+    Your desktop-specific styles here
+} */
+
+/* @media (min-width: 992px) and (max-width: 1199px) {
+    Your laptop-specific styles here
+} */
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+    Your tablet-specific styles here
+} */
+  
+/* @media (max-width: 767px) {
+    Your mobile-specific styles here
+} */
+
+/* Crimson: #F0122D */
+/* Beige: #FDF8F0 */
+
+html {
+    background-color: #FDF8F0;
+
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+}
+
+html::-webkit-scrollbar {
+    width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #4B4E53;
+}
+
+header {
+    user-select: none;
+    position: fixed;
+
+    color: #4B4E53;
+
+    padding: 15px 50px;
+
+    /* background-color: red;   */
+
+    width: 100vw;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+    max-height: 70px;
+}
+
+#logo-container {
+    white-space: nowrap;
+    float: left;
+}
+
+nav {
+    float: right;
+
+    padding-top: 12px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+    list-style-type: none;
+
+    width: 55em;
+}
+
+a {
+    text-decoration: none;
+
+    font-weight: bolder;
+    font-size: 1.1em;
+
+    color: #4B4E53;
+
+    transition-property: color;
+    transition-duration: 0.25s;
+}
+
+a:hover {
+    color: #002592;
+}
+
+main {
+    height: 1200vh;
+}
