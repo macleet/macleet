@@ -1,0 +1,124 @@
+/* Stylesheet for Mac Lee's portfolio website */
+
+/* TODO: Desktop, tablet, and mobile versions using media queries below */
+
+/* @media (min-width: 1200px) {
+    Your desktop-specific styles here
+} */
+
+/* @media (min-width: 992px) and (max-width: 1199px) {
+    Your laptop-specific styles here
+} */
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+    Your tablet-specific styles here
+} */
+  
+/* @media (max-width: 767px) {
+    Your mobile-specific styles here
+} */
+
+main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 350px 350px;
+
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.grid-item img {
+    width: 100%;
+}
+
+.grid-item p {
+    font-weight: 500;
+    font-size: 1.5em;
+    user-select: none;
+
+    margin-bottom: 80px;
+}
+
+.first-row {
+    align-self: center;
+}
+
+#hello-world-text {
+    font-size: 2em;
+}
+
+#polaroid-container img {
+    filter: drop-shadow(0px 0px 4px #3a3a3a);
+    border-radius: 8px;
+    cursor: url(../imageries/cursors/about-me-cursor.png), pointer;
+}
+
+#blinking-cursor {
+    animation: 1.5s blink step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: black;
+    }
+}
+
+#computer-container img {
+    cursor: url(../imageries/cursors/work-experience-cursor.png), pointer;
+}
+
+#typewriter-container img {
+    cursor: url(../imageries/cursors/blog-cursor.png), pointer;
+}
+
+#payphone-container img {
+    cursor: url(../imageries/cursors/contact-me-cursor.png), pointer;
+}
+
+#blueprints-container {
+    cursor: url(../imageries/cursors/personal-projects-cursor.png), pointer;
+
+    filter: drop-shadow(0px 0px 3.5px #090058);
+}
+
+#blueprint1 {
+    position: absolute;
+    width: 440px;
+    transform: translate(-70px, 12px) rotate(8deg);
+}
+
+#blueprint2 {
+    position: absolute;
+    width: 300px;
+    transform: translateY(-80px) rotate(-12deg);
+}
+
+.third-row {
+    display: flex;
+    align-items: center;
+
+    filter: drop-shadow(0px 0px 2.5px #3a3a3a);
+}
+
+/* footer {
+    width: 100%;
+    height: 25px;
+    background-color: #acacac;
+    filter: drop-shadow(0px 3.5px 8px #acacac);
+    border-top: 2px #acacac;
+} */
+
+@media (min-width: 1300px) {
+    main {
+        gap: 190px 380px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1299px) {
+    main {
+        gap: 190px 220px;
+    }
+}
