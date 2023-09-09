@@ -8,6 +8,8 @@ main {
     justify-content: center;
     align-items: center;
     grid-template-columns: 400px 300px;
+
+    margin-top: 50px;
 }
 
 .left-col h4 {
