@@ -9,7 +9,7 @@ main {
     align-items: center;
     grid-template-columns: 400px 300px;
 
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .left-col h4 {
