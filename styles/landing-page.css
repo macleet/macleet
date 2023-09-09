@@ -50,7 +50,7 @@ main {
 #polaroid-container img {
     filter: drop-shadow(0px 0px 4px #3a3a3a);
     border-radius: 8px;
-    cursor: url(../imageries/cursors/about-me-cursor.png), pointer;
+    cursor: url(../images/cursors/about-me-cursor.png), pointer;
 }
 
 #blinking-cursor {
@@ -67,19 +67,19 @@ main {
 }
 
 #computer-container img {
-    cursor: url(../imageries/cursors/work-experience-cursor.png), pointer;
+    cursor: url(../images/cursors/work-experience-cursor.png), pointer;
 }
 
 #typewriter-container img {
-    cursor: url(../imageries/cursors/blog-cursor.png), pointer;
+    cursor: url(../images/cursors/blog-cursor.png), pointer;
 }
 
 #payphone-container img {
-    cursor: url(../imageries/cursors/contact-me-cursor.png), pointer;
+    cursor: url(../images/cursors/contact-me-cursor.png), pointer;
 }
 
 #blueprints-container {
-    cursor: url(../imageries/cursors/personal-projects-cursor.png), pointer;
+    cursor: url(../images/cursors/personal-projects-cursor.png), pointer;
 
     filter: drop-shadow(0px 0px 3.5px #090058);
 }
