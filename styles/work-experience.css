@@ -87,6 +87,9 @@ main h2 {
 }
 
 #work-experience-header i {
+    color: rgb(60, 86, 131);
+
+
     margin-right: 9px;
 
     transition: color 0.2s ease-in-out;
