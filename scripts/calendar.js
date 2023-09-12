@@ -200,3 +200,4 @@ class Calendar {
 
 // create a new Calendar
 const cal = new Calendar();
+document.querySelector('#project-container').append(cal.container);
