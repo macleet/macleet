@@ -29,6 +29,10 @@ main {
     width: 100%;
 }
 
+#soccer-player-image {
+    width: 80%;
+}
+
 .grid-item h2 {
     font-size: 45px;
 }
