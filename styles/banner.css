@@ -26,8 +26,7 @@ header {
 
     padding: 15px 50px;
 
-
-    width: 100vw;
+    width: 100%;
 
     white-space: nowrap;
     overflow: hidden;
