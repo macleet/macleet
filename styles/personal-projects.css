@@ -10,6 +10,7 @@ main {
     grid-template-columns: 400px 300px;
 
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .left-col h4 {
@@ -53,8 +54,8 @@ ul {
     }
 } */
 
-@media (min-width: 992px) and (max-width: 1299px) {
+/* @media (min-width: 992px) and (max-width: 1299px) { */
     #projects-container {
         gap: 210px 200px;
     }
-}
+/* } */
