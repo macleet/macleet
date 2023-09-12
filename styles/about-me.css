@@ -14,3 +14,35 @@
     Your mobile-specific styles here
 } */
 
+header {
+    /* position: relative; */
+}
+
+main {    
+    padding-top: 130px;
+
+    width: 100%;
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 35% 35%;
+    grid-auto-rows: 500px;
+    gap: 100px 120px
+}
+
+div.grid-item {
+    background-color: red;
+
+}
+
+div.grid-image {
+    /* background-color: green; */
+
+    display: flex;
+    justify-content: center;
+
+}
+
+div.grid-image img {
+    height: 100%;
+}
