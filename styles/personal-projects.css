@@ -55,6 +55,6 @@ ul {
 
 @media (min-width: 992px) and (max-width: 1299px) {
     #projects-container {
-        gap: 190px 200px;
+        gap: 210px 200px;
     }
 }
