@@ -49,6 +49,17 @@ main h2 {
 #work-experience-container p {
     margin-left: 60px;
     margin-right: 20px;
+    line-height: 26px;
+}
+
+#work-experience-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 18px;
+}
+
 }
 
 #courses-container h1 {
