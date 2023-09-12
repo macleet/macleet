@@ -28,7 +28,7 @@ main {
     justify-content: center;
     grid-template-columns: 38% 38%;
     grid-auto-rows: 500px;
-    gap: 100px 80px
+    gap: 100px 50px
 }
 
 div.grid-item {
