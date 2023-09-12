@@ -32,6 +32,8 @@ main {
 
 #soccer-player-image {
     width: 80%;
+
+    margin-left: 30px;
 }
 
 .grid-item h2 {
