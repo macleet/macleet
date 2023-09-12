@@ -99,4 +99,8 @@ main h2 {
     margin-right: 20px;
     line-height: 26px;
 }
+
+.highlight {
+    background-color: rgba(158, 181, 219, 0.5);
+    /* opacity: ; */
 }
