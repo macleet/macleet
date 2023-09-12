@@ -1,10 +1,12 @@
 main {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
-    height: fit-content;
+    /* align-items: flex-start; temp image*/
+    align-items: center;
+    /* height: fit-content; */
+    height: 100vh;
 
-    padding-top: 32vh;
+    /* padding-top: 32vh; */
 }
 
 #text-container {
