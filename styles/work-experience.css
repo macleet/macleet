@@ -86,10 +86,11 @@ main h2 {
     font-size: 12px;
 }
 
-#work-experience-header i {
+#work-experience-header .fa-file-arrow-down {
     color: rgb(60, 86, 131);
+}
 
-
+#work-experience-header i {
     margin-right: 9px;
 
     transition: color 0.2s ease-in-out;
