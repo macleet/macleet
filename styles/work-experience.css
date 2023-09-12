@@ -32,7 +32,8 @@ main h2 {
 }
 
 #work-experience-container {
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    margin-bottom: 20px;
 }
 
 #work-experience-container h3 {
@@ -60,29 +61,61 @@ main h2 {
 }
 
 #work-experience-header button {
+    display: flex;
+    align-items: center;
+
     font-family: inherit;
     font-weight: 500;
-    font-size: 14px;
 
     height: fit-content;
 
-    padding: 9px 16px 9px 16px;
-    margin-right: 30px;
+    margin-right: 80px;
 
-    background-color: rgba(158, 181, 219, 0.5);
-    color: rgb(59, 59, 59);
+    color: rgb(60, 86, 131);
+    background-color: inherit;
 
-    border: 1px solid rgba(123, 142, 173, 0.288);
-    border-radius: 5px;
+    border: none;
 
     transition: background-color 0.2s ease-in-out;
+}
+
+#work-experience-header button h4 {
+    text-align: left;
+    line-height: 12px;
+
+    font-size: 12px;
+}
+
+#work-experience-header i {
+    margin-right: 9px;
+
+    transition: color 0.2s ease-in-out;
+}
+
+#work-experience-header i:hover {
+    color: rgb(154, 170, 197);
+}
+
+#work-experience-header a {
+    text-decoration: none;
 
     cursor: pointer;
 }
 
-#work-experience-header button:hover {
-    background-color: rgba(154, 170, 197, 0.5);
-    color: black;
+#work-experience-header a:visited {
+    text-decoration: none;
+
+    color: inherit;
+
+    cursor: pointer;
+}
+
+hr {
+    opacity: 0.7;
+}
+
+#courses-container {
+    margin-top: 34px;
 }
 
 #courses-container h1 {
