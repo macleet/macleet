@@ -60,6 +60,30 @@ main h2 {
     margin-bottom: 18px;
 }
 
+#work-experience-header button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+
+    height: fit-content;
+
+    padding: 9px 16px 9px 16px;
+    margin-right: 30px;
+
+    background-color: rgba(158, 181, 219, 0.5);
+    color: rgb(59, 59, 59);
+
+    border: 1px solid rgba(123, 142, 173, 0.288);
+    border-radius: 5px;
+
+    transition: background-color 0.2s ease-in-out;
+
+    cursor: pointer;
+}
+
+#work-experience-header button:hover {
+    background-color: rgba(154, 170, 197, 0.5);
+    color: black;
 }
 
 #courses-container h1 {
