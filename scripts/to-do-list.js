@@ -432,7 +432,7 @@ class TaskManager {
             this.currCategory = newTaskCategory.container;
             this.currCategory.classList.add('current-context');
             this.currTasksContainerState.style.display = 'none';
-            document.querySelector('#main-section').prepend(newTaskCategory.tasksContainer);
+            document.querySelector('#main-header').after(newTaskCategory.tasksContainer);
             newTaskCategory.tasksContainer.style.display = 'flex';
             this.currTasksContainerState = newTaskCategory.tasksContainer;
         });
@@ -461,8 +461,7 @@ class TaskManager {
     }
 
     addTask(event) {
-        if (event.key !== 'Enter') { return; }  // move this if statemnt a level above
-
+        if (event.key !== 'Enter') { return; }  // move this if statement a level above?
         // gets user input
         const taskName = this.inputElement.value.trim();
         
